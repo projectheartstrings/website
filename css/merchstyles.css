@@ -1,0 +1,277 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 300;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #28111d;
+  font-size: 1.5rem;
+}
+
+a, .btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 1.5%;
+}
+
+/* Colored/White Section */
+.colored {
+  background-color: #7b5074;
+  color: #fff
+}
+
+.colored-nav {
+  background-color: #7b5074;
+  color: #fff;
+  padding: 0 1%;
+}
+
+.colored-nav-heading {
+  background-color: #7b5074;
+  color: #fff;
+  padding: 0 1%;
+  font-size: 1.5rem;
+}
+
+.white {
+  background-color: #efe6d1;
+  color: #28111d;
+}
+
+.product, .product:after, .product:focus {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 10px;
+  font-size: 1.65rem;
+}
+
+.product:hover {
+  background-color: #fff;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 10px;
+}
+
+.row, .order-row {
+  align-content: center;
+  justify-content: center;
+}
+
+.order-row{
+  margin-bottom: 3%;
+}
+
+/* carousel */
+.caroImg {
+  width: 20%;
+}
+
+.carousel-inner {
+  margin: 3% 0;
+}
+
+/* navbar */
+.navbar {
+  padding: 1rem;
+  display: flex;
+}
+
+.navbar-brand {
+  font-family: "Belgrano";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+.dropdown-content {
+  text-align: center;
+  color: #000;
+  background-color: #efe6d1;
+  font-size: 1.5rem;
+}
+
+.colored-nav-content {
+  font-size: 1.5rem;
+  background-color: #7b5074;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  font-size: 2rem;
+}
+
+/* Title */
+.title-image {
+  width: 75%;
+}
+
+.title {
+  padding: 2% 5%;
+}
+
+.order-now {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.project-info {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+
+.disclaimer{
+  color: #fff;
+  font-weight: 300;
+}
+
+.btn-group, .merch {
+  margin: 0;
+  padding: 1%;
+  height: 60px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merch-btns {
+  padding: 1% 0 0;
+  width: 100%;
+}
+
+.modalBtn {
+  margin: 1% 2% 0;
+}
+
+.modal-body {
+  padding: 2%;
+}
+
+/* Order Button*/
+.order-btn {
+  margin: 1% 1% 0;
+  text-align: center;
+}
+
+/* merch */
+.merch-img {
+  width: 100%
+}
+
+.back-to-top {
+  margin: 3% 0 0;
+}
+
+.card {
+  border-radius: 25px;
+  border: none;
+}
+
+.card-img-top {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 100%;
+}
+
+.card-title {
+  height: 25px;
+}
+
+.card-title {
+  color: #000;
+}
+
+.list-group {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.pic2{
+  width:50%;
+border-radius: 20px;
+}
+
+.sizingChart{
+  width:80%;
+}
+
+/* Call to Action */
+.cta {
+  padding: 2%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* breakpoints */
+.list-group-item {
+  width: 90%;
+  margin: 1%
+}
+
+@media (min-width: 900px) {
+  .colored-nav-heading, .dropdown-content, .colored-nav-content {
+    font-size: 2rem;
+  }
+
+  .btn-group, .merch {
+    font-size: 1.5rem;
+  }
+
+  .merch-desc {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .list-group-item {
+    width: 30%;
+    margin: 5px 1%
+  }
+
+  .merch-desc {
+    font-size: 1.1rem;
+  }
+}

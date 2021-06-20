@@ -1,0 +1,239 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 300;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #28111d;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+a, .btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 1%;
+}
+
+/* Colored/White Section */
+.colored {
+  background-color: #7073b8;
+  color: #fff
+}
+
+.white {
+  background-color: #efe6d1;
+  color: #28111d;
+}
+
+.colored-nav {
+  background-color: #7073b8;
+  color: #fff;
+  padding: 0 1%;
+}
+
+.colored-nav-heading {
+  background-color: #7073b8;
+  color: #fff;
+  padding: 0 1%;
+  font-size: 1.5rem;
+}
+
+/* navbar */
+.navbar {
+  padding: 1rem;
+  display: flex;
+}
+
+.col-lg {
+  margin-top: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Belgrano";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+.dropdown-content {
+  text-align: center;
+  color: #28111d;
+  background-color: #efe6d1;
+  font-size: 1.5rem;
+}
+
+.colored-nav-content {
+  font-size: 1.5rem;
+  background-color: #7073b8;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  font-size: 2rem;
+}
+
+/* Title */
+.title-image {
+  width: 75%;
+}
+
+.title {
+  padding: 1% 5% 0;
+}
+
+.order-now {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.project-info {
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-group, .merch {
+  margin: 0;
+  padding: 1%;
+  height: 60px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merch-btns {
+  padding: 1% 0 0;
+  width: 100%;
+}
+
+/* carousel */
+.caroImg {
+  width: 20%;
+}
+
+.carousel-inner {
+  margin: 3% 0;
+}
+
+/* Order Button*/
+.order-btn {
+  margin: 1%;
+  text-align: center;
+  width: 50%;
+}
+
+.order-now {
+  margin-top: 3%;
+}
+
+/* Beneficiaries */
+.beneficiaries {
+  text-align: center;
+  font-size: 3rem;
+  padding: 3%;
+}
+
+.charitylogo {
+  width: 50%;
+}
+
+.feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7073b8;
+}
+
+.features-col {
+  padding: 0 2.5%;
+  font-weight: 400;
+  width: 30%;
+}
+
+.contactText {
+  padding: 2% 10%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact {
+  text-align: center;
+  padding: 5%;
+}
+
+.tele {
+  color: #fff;
+}
+
+/* Call to Action */
+.cta {
+  padding: 2%;
+}
+
+.footer {
+  color: #fff;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.list-group-item {
+  width: 95%;
+  margin: 1%
+}
+
+@media (min-width: 1000px) {
+  .list-group-item {
+    width: 47%;
+    margin: 5px 1.5%
+  }
+
+  .colored-nav-heading, .dropdown-content, .colored-nav-content {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .list-group-item {
+    width: 31.333%;
+    margin: 5px 1%
+  }
+}
